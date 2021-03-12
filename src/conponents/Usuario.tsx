@@ -11,8 +11,6 @@ name:string;
 
 
 
-
-
 export const Usuario = ( ) =>{
 
 const [user, setuser] = useState<user> ();
