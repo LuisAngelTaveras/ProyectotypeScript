@@ -1,3 +1,4 @@
+import { Contador } from "./conponents/Contador";
 import {Counter} from "./conponents/Counter";
 import { TimerPadre } from "./conponents/TimerPadre";
 import { Usuario } from "./conponents/Usuario";
@@ -7,19 +8,26 @@ function App() {
     <>
 
     
-      <h2>
+      <h3>
          React + Typescript
-      </h2>
+      </h3>
       <hr/>
       
 
       <Counter/>
       <Usuario/>
 
-      <h2> UseEffect - useref </h2>
+      <h3> UseEffect - useref </h3>
       <hr/>
 
-      <TimerPadre/>     
+      <TimerPadre/>  
+   
+      
+      <h3>useReducer</h3>
+      <hr/>
+      <Contador/>   
+      
+
 
 
     </>
