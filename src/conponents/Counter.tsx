@@ -27,7 +27,7 @@ className="btn btn-outline-warning mt-2">
 +1
 </button>
 
-
+<br/>
 
 <button 
 
@@ -36,7 +36,7 @@ className="btn btn-outline-warning mt-2">
 +2
 </button>
 
-
+<br/>
 
 <button 
 
